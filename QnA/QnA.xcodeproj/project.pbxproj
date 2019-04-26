@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18058A532271DF7800C663DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18058A522271DF7800C663DB /* AppDelegate.swift */; };
-		18058A552271DF7800C663DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18058A542271DF7800C663DB /* ViewController.swift */; };
-		18058A582271DF7800C663DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18058A562271DF7800C663DB /* Main.storyboard */; };
-		18058A5A2271DF7A00C663DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18058A592271DF7A00C663DB /* Assets.xcassets */; };
-		18058A5D2271DF7A00C663DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18058A5B2271DF7A00C663DB /* LaunchScreen.storyboard */; };
+		18058A712271E5B100C663DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18058A702271E5B100C663DB /* AppDelegate.swift */; };
+		18058A732271E5B100C663DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18058A722271E5B100C663DB /* ViewController.swift */; };
+		18058A762271E5B100C663DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18058A742271E5B100C663DB /* Main.storyboard */; };
+		18058A782271E5B200C663DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18058A772271E5B200C663DB /* Assets.xcassets */; };
+		18058A7B2271E5B200C663DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18058A792271E5B200C663DB /* LaunchScreen.storyboard */; };
+		18058A832271F95A00C663DB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18058A822271F95A00C663DB /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18058A4F2271DF7800C663DB /* QnA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QnA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18058A522271DF7800C663DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18058A542271DF7800C663DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18058A572271DF7800C663DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18058A592271DF7A00C663DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18058A5C2271DF7A00C663DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18058A5E2271DF7A00C663DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18058A6D2271E5B100C663DB /* QnA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QnA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18058A702271E5B100C663DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18058A722271E5B100C663DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18058A752271E5B100C663DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18058A772271E5B200C663DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18058A7A2271E5B200C663DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18058A7C2271E5B200C663DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18058A822271F95A00C663DB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18058A4C2271DF7800C663DB /* Frameworks */ = {
+		18058A6A2271E5B100C663DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18058A462271DF7800C663DB = {
+		18058A642271E5B100C663DB = {
 			isa = PBXGroup;
 			children = (
-				18058A512271DF7800C663DB /* QnA */,
-				18058A502271DF7800C663DB /* Products */,
+				18058A6F2271E5B100C663DB /* QnA */,
+				18058A6E2271E5B100C663DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18058A502271DF7800C663DB /* Products */ = {
+		18058A6E2271E5B100C663DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18058A4F2271DF7800C663DB /* QnA.app */,
+				18058A6D2271E5B100C663DB /* QnA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18058A512271DF7800C663DB /* QnA */ = {
+		18058A6F2271E5B100C663DB /* QnA */ = {
 			isa = PBXGroup;
 			children = (
-				18058A522271DF7800C663DB /* AppDelegate.swift */,
-				18058A542271DF7800C663DB /* ViewController.swift */,
-				18058A562271DF7800C663DB /* Main.storyboard */,
-				18058A592271DF7A00C663DB /* Assets.xcassets */,
-				18058A5B2271DF7A00C663DB /* LaunchScreen.storyboard */,
-				18058A5E2271DF7A00C663DB /* Info.plist */,
+				18058A702271E5B100C663DB /* AppDelegate.swift */,
+				18058A722271E5B100C663DB /* ViewController.swift */,
+				18058A822271F95A00C663DB /* Question.swift */,
+				18058A742271E5B100C663DB /* Main.storyboard */,
+				18058A772271E5B200C663DB /* Assets.xcassets */,
+				18058A792271E5B200C663DB /* LaunchScreen.storyboard */,
+				18058A7C2271E5B200C663DB /* Info.plist */,
 			);
 			path = QnA;
 			sourceTree = "<group>";
@@ -67,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18058A4E2271DF7800C663DB /* QnA */ = {
+		18058A6C2271E5B100C663DB /* QnA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18058A612271DF7A00C663DB /* Build configuration list for PBXNativeTarget "QnA" */;
+			buildConfigurationList = 18058A7F2271E5B200C663DB /* Build configuration list for PBXNativeTarget "QnA" */;
 			buildPhases = (
-				18058A4B2271DF7800C663DB /* Sources */,
-				18058A4C2271DF7800C663DB /* Frameworks */,
-				18058A4D2271DF7800C663DB /* Resources */,
+				18058A692271E5B100C663DB /* Sources */,
+				18058A6A2271E5B100C663DB /* Frameworks */,
+				18058A6B2271E5B100C663DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +84,25 @@
 			);
 			name = QnA;
 			productName = QnA;
-			productReference = 18058A4F2271DF7800C663DB /* QnA.app */;
+			productReference = 18058A6D2271E5B100C663DB /* QnA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18058A472271DF7800C663DB /* Project object */ = {
+		18058A652271E5B100C663DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
-					18058A4E2271DF7800C663DB = {
+					18058A6C2271E5B100C663DB = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 18058A4A2271DF7800C663DB /* Build configuration list for PBXProject "QnA" */;
+			buildConfigurationList = 18058A682271E5B100C663DB /* Build configuration list for PBXProject "QnA" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 18058A462271DF7800C663DB;
-			productRefGroup = 18058A502271DF7800C663DB /* Products */;
+			mainGroup = 18058A642271E5B100C663DB;
+			productRefGroup = 18058A6E2271E5B100C663DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18058A4E2271DF7800C663DB /* QnA */,
+				18058A6C2271E5B100C663DB /* QnA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18058A4D2271DF7800C663DB /* Resources */ = {
+		18058A6B2271E5B100C663DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18058A5D2271DF7A00C663DB /* LaunchScreen.storyboard in Resources */,
-				18058A5A2271DF7A00C663DB /* Assets.xcassets in Resources */,
-				18058A582271DF7800C663DB /* Main.storyboard in Resources */,
+				18058A7B2271E5B200C663DB /* LaunchScreen.storyboard in Resources */,
+				18058A782271E5B200C663DB /* Assets.xcassets in Resources */,
+				18058A762271E5B100C663DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18058A4B2271DF7800C663DB /* Sources */ = {
+		18058A692271E5B100C663DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18058A552271DF7800C663DB /* ViewController.swift in Sources */,
-				18058A532271DF7800C663DB /* AppDelegate.swift in Sources */,
+				18058A832271F95A00C663DB /* Question.swift in Sources */,
+				18058A732271E5B100C663DB /* ViewController.swift in Sources */,
+				18058A712271E5B100C663DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18058A562271DF7800C663DB /* Main.storyboard */ = {
+		18058A742271E5B100C663DB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18058A572271DF7800C663DB /* Base */,
+				18058A752271E5B100C663DB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18058A5B2271DF7A00C663DB /* LaunchScreen.storyboard */ = {
+		18058A792271E5B200C663DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18058A5C2271DF7A00C663DB /* Base */,
+				18058A7A2271E5B200C663DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18058A5F2271DF7A00C663DB /* Debug */ = {
+		18058A7D2271E5B200C663DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		18058A602271DF7A00C663DB /* Release */ = {
+		18058A7E2271E5B200C663DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +282,7 @@
 			};
 			name = Release;
 		};
-		18058A622271DF7A00C663DB /* Debug */ = {
+		18058A802271E5B200C663DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		18058A632271DF7A00C663DB /* Release */ = {
+		18058A812271E5B200C663DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18058A4A2271DF7800C663DB /* Build configuration list for PBXProject "QnA" */ = {
+		18058A682271E5B100C663DB /* Build configuration list for PBXProject "QnA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18058A5F2271DF7A00C663DB /* Debug */,
-				18058A602271DF7A00C663DB /* Release */,
+				18058A7D2271E5B200C663DB /* Debug */,
+				18058A7E2271E5B200C663DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18058A612271DF7A00C663DB /* Build configuration list for PBXNativeTarget "QnA" */ = {
+		18058A7F2271E5B200C663DB /* Build configuration list for PBXNativeTarget "QnA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18058A622271DF7A00C663DB /* Debug */,
-				18058A632271DF7A00C663DB /* Release */,
+				18058A802271E5B200C663DB /* Debug */,
+				18058A812271E5B200C663DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18058A472271DF7800C663DB /* Project object */;
+	rootObject = 18058A652271E5B100C663DB /* Project object */;
 }
